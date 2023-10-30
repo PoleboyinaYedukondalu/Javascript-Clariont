@@ -7,10 +7,10 @@ let a = 0;
         a +=i;
     }
     else{
-        b *=i;
+        b*=i;
     }
     
- }
+ };
 console.log("the sum of even numbers is" +a);
 console.log("the product of odd numbers is" +b);
 
@@ -26,7 +26,7 @@ console.log("the product of odd numbers is" +b);
         oddnumbers *= numbers;
     }
     numbers++
- }
+ };
  console.log("the sum of even numbers is "+evennumbers);
  console.log("the product of add numbersis" +oddnumbers);
  //another ,method without using if and else statements:
