@@ -26,26 +26,26 @@ let myarray4 =['nani',{company:'clariont',role:'developer'},[9912542198,10],true
 let myarry5 =['nani','dhurga','pawan'];
 
 // methods of arrys :
-push
-pop
-shift
-unshift
-replace
-slice
+// push
+// pop
+// shift
+// unshift
+// replace
+// slice
 
 let my_arry = [];
 
 // push :
-my_arry = my_arry.push('nani','clariont','developer');
+my_arry.push('nani','clariont','developer');
 
 // pop :
-let myarry = myarry.pop('developer');
+my_arry.pop('developer')
 
 // unshift :
-myarry.unshift(1);
+my_arry.unshift(1);
 
 // shift :
-myarry.shift();
+my_arry.shift();
 
 // slice :
 let myarry1 =[1,2,3,4,5];
